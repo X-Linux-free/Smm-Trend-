@@ -6,10 +6,11 @@
     <uses-permission android:name="android.permission.INTERNET" />
 
     <application
-        android:theme="@style/AppTheme"
+        android:allowBackup="false"
         android:label="Mawja Payment Bridge"
         android:icon="@drawable/ic_launcher"
         android:roundIcon="@drawable/ic_launcher"
+        android:theme="@style/AppTheme"
         android:usesCleartextTraffic="false">
 
         <activity
